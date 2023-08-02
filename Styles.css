@@ -191,7 +191,7 @@ main{
 .footerwrapper{
     width: 100%;
     position: fixed;
-    top: 530px;
+    bottom: 0px;
     background-color: rgba(52, 53, 65, 0.9);
     padding: 5px;
 }
@@ -257,8 +257,7 @@ width: 100%;
     main{
         margin: 5px auto;
         width: 100%;
-        padding-bottom: 260px;
-        padding-top: 110px;
+        padding: 260px 10px 200px;
     }
     .navbar{
         padding: 0px 20px;
@@ -273,7 +272,7 @@ width: 100%;
         display: none;
     }
     .querybar{
-        width: 90%;
+        width: 85%;
     }
     .responsedetails,.querydetails{
         width: 80%;
